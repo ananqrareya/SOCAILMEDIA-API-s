@@ -35,8 +35,9 @@ private AuthenticationManager authenticationManager;
             @PostMapping("/register")
         public ResponseEntity<?> registerUser(@Valid @RequestBody UserDto userDto) {
                 try {
-                    User user = userService.newUser(userDto);
-                    return ResponseEntity.ok().body(user);
+                   UserDto user=userService.newUser(userDto);
+
+                    return ResponseEntity.ok().body("The Register Successfully :"+user);
                 }catch (RegisterUserExceptions e){
                     return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Error registering user: " + e.getMessage());
 

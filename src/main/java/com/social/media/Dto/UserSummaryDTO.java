@@ -3,10 +3,17 @@ package com.social.media.Dto;
 public class UserSummaryDTO {
     String userName;
     String email ;
+    PostDto postDto;
 
     public UserSummaryDTO(String userName, String email) {
         this.userName = userName;
         this.email = email;
+    }
+
+    public UserSummaryDTO(String userName, String email, PostDto postDto) {
+        this.userName = userName;
+        this.email = email;
+        this.postDto = postDto;
     }
 
     public String getUserName() {

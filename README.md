@@ -1,5 +1,4 @@
-Certainly! Here’s a sample README for your GitHub repository, detailing the endpoints and benefits of your social media application.
-
+ 
 ---
 
 # Social Media Application

@@ -138,8 +138,7 @@ This section describes the database schema for the social media application. The
 4. **Security:** The application utilizes Spring Security to ensure secure authentication and authorization processes, protecting user data and interactions.
 5. **Scalability:** Built with Spring Boot, the application is designed to scale efficiently, accommodating a growing number of users and interactions.
 
-For more details on how to use the API, please refer to the provided endpoint documentation and examples.
-
+ 
 ---
 
  
